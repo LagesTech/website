@@ -1,0 +1,56 @@
+*{
+  margin: 0 auto 0 auto;
+  text-align: justify;
+  }
+body{
+  font-family: 'Source Sans Pro', 'Lato', sans-serif;
+  /*
+  Fontes para usar na página web
+  font-family: 'Lato', 'Dosis', 'Source Sans Pro', 'Work Sans', 'Hind Siliguri';
+  */
+}
+#container{
+  width: 960px;
+}
+header{
+  width: 960px;
+  height: 85px;
+}
+header img{
+  float: left;
+  width: 15%;
+}
+header h2{
+  float: right;
+  color: #ffa100;
+  padding: 40px 20px 0 0;
+}
+#menu{
+  display: block;
+  float: left;
+  clear: both;
+  width: 960px;
+  height: 54px;
+  background-color: rgb(5, 87, 15)
+}
+#menu ul{
+  list-style: none;
+  padding: 0;
+  padding-top: 18px;
+  margin-left: auto;
+  width: 960px;
+}
+#menu li{
+  list-style: none;
+  padding: 0;
+  display: inline;
+}
+#menu li a,#menu li a:visited{
+  float: left;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 13px 0 13px;
+}
