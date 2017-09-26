@@ -57,7 +57,7 @@ header h2{
   font-weight: bold;
   padding: 0 55px 0 55px;
 }
-section{
+.session{
     clear:both;
     display: block;
     background-color: rgba(48, 61, 47, 0.44);
@@ -65,7 +65,7 @@ section{
     height: 385px;
     border-radius: 10px;
 }
-section p {
+.session p {
   font-family: 'Lato', 'Dosis', 'Source Sans Pro', sans-serif;
   color: #ffffff;
   font-weight: bold;
@@ -78,17 +78,42 @@ section p {
   padding: 90px 10px 0 20px;
   }
 
-  section h5{
+  .session h5{
     font-family: 'Dosis', 'Source Sans Pro', sans-serif;
     color: #ffffff;
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     }
-  section h6{
+  .session h6{
     font-family: 'Dosis', 'Source Sans Pro', sans-serif;
     color: #ffffff;
     text-align: center;
+  }
+  .treinamentos{
+    display: block;
+    clear:both;
+    width: 800px;
+    margin-top: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 6px solid #1B5C18;
+    padding: 15px;
+
+  }
+  .treinamentos h2{
+    text-align: center;
+    font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+    color: #D74D00;
+  }
+  .treino{
+    width: 170px;
+    float: right;
+    color: #1B5C18;
+    text-align: center;
+  }
+  .treino img {
+    width: 50%;
   }
 
 
