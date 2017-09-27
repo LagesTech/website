@@ -1,32 +1,38 @@
-*{
+* {
   margin: 0 auto 0 auto;
   text-align: justify;
-  }
-body{
+}
+
+body {
   font-family: 'Source Sans Pro', 'Lato', sans-serif;
   /*
   Fontes para usar na página web
   font-family: 'Lato', 'Dosis', 'Source Sans Pro', 'Work Sans', 'Hind Siliguri';
   */
 }
-#container{
+
+#container {
   width: 960px;
 }
-header{
+
+header {
   width: 960px;
   height: 85px;
   margin-top: 5px;
 }
-header img{
+
+header img {
   float: left;
   width: 10%;
 }
-header h2{
+
+header h2 {
   float: right;
   color: #D74D00;
   padding: 40px 20px 0 0;
 }
-#menu{
+
+#menu {
   margin-top: 5px;
   margin-bottom: 10px;
   display: block;
@@ -36,91 +42,177 @@ header h2{
   height: 54px;
   background-color: #1B5C18;
 }
-#menu ul{
+
+#menu ul {
   list-style: none;
   padding: 0;
   padding-top: 18px;
   margin-left: auto;
   width: 960px;
 }
-#menu li{
+
+#menu li {
   list-style: none;
   padding: 0;
   display: inline;
 }
-#menu li a,#menu li a:visited{
+
+#menu li a, #menu li a:visited {
   float: left;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
   font-size: 15px;
   font-weight: bold;
-  padding: 0 55px 0 55px;
+  padding: 0 85px 0 85px;
 }
-.session{
-    clear:both;
-    display: block;
-    background-color: rgba(48, 61, 47, 0.44);
-    width: 800px;
-    height: 385px;
-    border-radius: 10px;
+
+.session {
+  clear: both;
+  display: block;
+  background-color: rgba(48, 61, 47, 0.44);
+  width: 800px;
+  height: 385px;
+  border-radius: 10px;
 }
+
 .session p {
   font-family: 'Lato', 'Dosis', 'Source Sans Pro', sans-serif;
   color: #ffffff;
   font-weight: bold;
   padding: 150px 10px 0 40px;
-  }
-.imgdev{
+}
+
+.imgdev {
   float: right;
   margin: 15px;
   width: 100%;
   padding: 90px 10px 0 20px;
-  }
+}
 
-  .session h5{
-    font-family: 'Dosis', 'Source Sans Pro', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
-    }
-  .session h6{
-    font-family: 'Dosis', 'Source Sans Pro', sans-serif;
-    color: #ffffff;
-    text-align: center;
-  }
-  .treinamentos{
-    display: block;
-    clear:both;
-    width: 800px;
-    margin-top: 15px;
-    background: #ffffff;
-    border-radius: 10px;
-    border: 6px solid #1B5C18;
-    padding: 15px;
+.session h5 {
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-  }
-  .treinamentos h2{
-    text-align: center;
-    font-family: 'Dosis', 'Source Sans Pro', sans-serif;
-    color: #D74D00;
-  }
-  .treino{
-    width: 170px;
-    float: right;
-    color: #1B5C18;
-    text-align: center;
-  }
-  .treino img {
-    width: 50%;
-  }
+.session h6 {
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
 
+#treinamentos {
+  display: block;
+  clear: both;
+  width: 800px;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 6px solid #1B5C18;
+  padding: 15px;
+}
 
-footer{
+#treinamentos h2 {
+  text-align: center;
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  color: #D74D00;
+}
+
+.treino {
+  width: 170px;
+  float: right;
+  color: #1B5C18;
+  text-align: center;
+}
+
+.treino img {
+  width: 50%;
+}
+
+#contato {
+  display: block;
+  width: 800px;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 6px solid #D74D00;
+  padding: 15px;
+}
+
+#contato h2 {
+  text-align: center;
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  color: #1B5C18;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+#contato fieldset legend {
+  text-align: center;
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+  color: #1B5C18;
+}
+
+#contato fieldset label {
+  display: inline;
+  font-family: 'Dosis', 'Source Sans Pro', sans-serif;
+}
+
+#contato table, tr, td, th {
+  margin: 0;
+}
+
+#contato table {
+  padding: 10px 0;
+}
+
+#contato th {
+  text-align: center;
+}
+
+#contato td {
+  padding: 5px 20px;
+}
+
+.redesocial {
+  clear: both;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 60px;
+  padding-top: 15px;
+  margin-bottom: -16px;
+  color: #ffffff;
+}
+
+.redesocial h3 {
+  padding: 0 0 0 0;
+  font-family: 'Work Sans', 'Hind Siliguri', sans-serif;
+  font-weight: bold;
+}
+
+.redesocial ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 5px;
+  margin-left: auto;
+}
+
+.redesocial li {
+  list-style: none;
+  padding: 0;
+  display: inline;
+
+}
+
+footer {
   text-align: center;
   color: #ffffff;
-  background-color:#000000;
+  background-color: #000000;
   margin: 20px;
   padding: 5px 0 5px 0;
 }

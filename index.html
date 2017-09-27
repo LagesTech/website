@@ -1,69 +1,144 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Lages Tech</title>
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Hind+Siliguri|Lato|Source+Sans+Pro|Work+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-  </head>
-  <body>
-    <div id="container">
-      <header>
-        <img src="img/logo02.png" alt="logo Lages Tech">
-        <h2>Lages Tech - Tecnologia e Conhecimento</h2>
-      </header>
 
-      <nav id="menu">
-        <ul>
-          <li class="menuitem"><a href="index.html">Dicas</a></li>
-          <li class="menuitem"><a href="browse.html">Parceiros</a></li>
-          <li class="menuitem"><a href="browse.html">Portfólio</a></li>
-          <li class="menuitem"><a href="about.html">O que é Lages Tech?</a></li>
-          <li class="menuitem"><a href="contact.html">Contato</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="utf-8">
+  <title>Lages Tech</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Hind+Siliguri|Lato|Source+Sans+Pro|Work+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
 
-      <section class="session">
-        <div class="row">
-          <div class="col-md-8">
-            <p>Lages Tech é uma micro-empresa de desenvolvimento web e de treinamentos. Abrindo oportunidades para pequenas e medias empresas no mundo digital.</p>
-            </div>
-          <div class="col-md-4">
-            <img class="imgdev" src="img/image.png" alt="Daniel Araújo">
-            <h5>Daniel Oliveira Araújo</h5>
-            <h6>Desenvolvedor</h6>
+<body>
+  <div id="container">
+    <header>
+      <img src="img/logo02.png" alt="logo Lages Tech">
+      <h2>Lages Tech - Tecnologia e Conhecimento</h2>
+    </header>
+
+    <nav id="menu">
+      <ul>
+        <li class="menuitem"><a href="index.html">Dicas</a></li>
+        <li class="menuitem"><a href="#treinamentos">Treinamentos</a></li>
+        <li class="menuitem"><a href="#portfolio">Portfólio</a></li>
+        <li class="menuitem"><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section class="session">
+      <div class="row">
+        <div class="col-md-8">
+          <p>Lages Tech é uma micro-empresa de desenvolvimento web e de treinamentos. Abrindo oportunidades para pequenas e medias empresas no mundo digital.</p>
+        </div>
+        <div class="col-md-4">
+          <img class="imgdev" src="img/image.png" alt="Daniel Araújo">
+          <h5>Daniel Oliveira Araújo</h5>
+          <h6>Desenvolvedor</h6>
+        </div>
+      </div>
+    </section>
+    <section id="treinamentos">
+      <h2>Treinamentos</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="treino">
+            <h4>HTML e CSS</h4>
+            <img src="img/html e css.jpg" alt="">
           </div>
         </div>
-      </section>
-      <section class="treinamentos">
-        <h2>Treinamentos</h2>
 
-        <div class="row">
-          <div class="col-md-4">
-            <div class="treino">
-                <h4>HTML e CSS</h4>
-              <img src="img/html e css.jpg" alt="">
-            </div>
+        <div class="col-md-4">
+          <div class="treino">
+            <h4>Java com Banco de Dados</h4>
+            <img src="img/java.jpg" alt="">
           </div>
+        </div>
 
-          <div class="col-md-4">
-            <div class="treino">
-                <h4>Java com Banco de Dados</h4>
-              <img src="img/java.jpg" alt="">
-            </div>
+        <div class="col-md-4">
+          <div class="treino">
+            <h4>Excel Avançado</h4>
+            <img src="img/excel.jpg" alt="">
           </div>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
 
-          <div class="col-md-4">
-            <div class="treino">
-                <h4>Excel Avançado</h4>
-              <img src="img/excel.jpg" alt="">
-            </div>
-          </div>
+      <h2>Contato</h2>
+      <p>Entre em contato e juntos desenvolveremos um ótimo projeto</p>
+      <form method="post">
+        <p>
+          <label for="name">Nome Completo:</label>
+          <input type="text" name="name">
+        </p>
+        <p>
+          <label for="email">Email: </label>
+          <input type="email" name="email">
+        </p>
+        <p>
+          <label for="phone">Telefone: </label>
+          <input type="tel" name="phone">
+        </p>
+        <p>
+          <label for="location">Location: </label>
+          <input list="location">
+          <datalist id="location">
+                <option value="Aquiraz"></option>
+                <option value="Caucaia"></option>
+                <option value="Eusébio"></option>
+                <option value="Fortaleza"></option>
+                <option value="Maracanaú"></option>
+                <option value="Maranguape"></option>
+                <option value="Pacatuba"></option>
+              </datalist>
+        </p>
+        <fieldset>
+          <legend>Sobre o seu projeto</legend>
+          <p>
+            <label for="call">Que tipo de serviços precisa?</label>
+            <h5>Treinamentos</h5>
+            <table>
+              <tr>
+                <td><input type="checkbox" name="services" value="html">Web Design</td>
+                <td><input type="checkbox" name="services" value="php">Java</td>
+                <td><input type="checkbox" name="services" value="asp">Excel Avançado</td>
+              </tr>
+            </table>
+          </p>
+          <h5>Desenvolvimento Web</h5>
+          <table>
+            <tr>
+              <td><input type="checkbox" name="services" value="html">HTML, CSS</td>
+              <td><input type="checkbox" name="services" value="php">Java Web</td>
+              <td><input type="checkbox" name="services" value="asp">Wordpress</td>
+            </tr>
+          </table>
+          </p>
+        </fieldset>
+          <p>
+            <input type="submit" value="Submit Inquiry">
+          </p>
+      </form>
+
+      <div class="redesocial row">
+        <div class="col-med-6">
+          <h3>Redes Sociais</h3>
+        </div>
+        <div class="col-med-6">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/daniel-oliveira-ara%C3%BAjo-51b72130/"><button><i class="fa fa-linkedin fa-lg"></i></button></a></li>
+            <li><a href="https://github.com/Pakato14"><button><i class="fa fa-github fa-lg"></i></button></a></li>
+            <li><a href="https://twitter.com/Daniel1482"><button><i class="fa fa-twitter fa-lg"></i></button></a></li>
+          </ul>
 
         </div>
 
-      </section>
+
+      </div>
+
+    </section>
 
 
     <div style="clear:both"></div>
@@ -71,5 +146,6 @@
       Copyright 2017, Lages Tech
     </footer>
 
-  </body>
+</body>
+
 </html>
